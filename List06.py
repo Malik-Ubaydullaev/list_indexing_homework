@@ -6,4 +6,24 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    idx = 0
+    if list1[idx] == 1:
+        list1[idx] = True
+    
+    idx += 1
+    if list1[idx] == 1:
+        list1[idx] = True
+    
+    idx += 1
+    if list1[idx] == 1:
+        list1[idx] = True
+    
+    idx += 1
+    if list1[idx] == 1:
+        list1[idx] = True
+    
+    idx += 1
+    if list1[idx] == 1:
+        list1[idx] = True
+    
+    return list1
