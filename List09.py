@@ -1,5 +1,7 @@
 def is_same(list1):
-    if list1[0] == list1[1] and list1[0] == list1[2] and list1[0] == list1[3] and list1[0] == list1[4]:
+    if len(list1) == 1:
+        return True
+    elif list1[0] == list1[1] and list1[0] == list1[2] and list1[0] == list1[3] and list1[0] == list1[4]:
         return True
     else:
         return False
